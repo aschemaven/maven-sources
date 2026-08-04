@@ -25,11 +25,16 @@
   <default revision='master' remote='origin' sync-j='8' />
 
   <project path='plugins/reporting/maven-docck-plugin'      name='maven-docck-plugin.git' />
+  <project path='plugins/reporting/maven-linkcheck-plugin'  name='maven-linkcheck-plugin.git' />
 
   <project path='plugins/tools/maven-ant-plugin'            name='maven-ant-plugin.git' />
   <project path='plugins/tools/maven-patch-plugin'          name='maven-patch-plugin.git' />
   <project path='plugins/tools/maven-pdf-plugin'            name='maven-pdf-plugin.git' />
   <project path='plugins/tools/maven-repository-plugin'     name='maven-repository-plugin.git' />
+
+  <project path='doxia/tools/doxia-book-maven-plugin'       name='maven-doxia-book-maven-plugin.git' />
+  <project path='doxia/tools/doxia-book-renderer'           name='maven-doxia-book-renderer.git' />
+  <project path='doxia/tools/linkcheck'                     name='maven-doxia-linkcheck.git' />
 
   <project path='misc/skins/default'                        name='maven-default-skin.git' />
 
